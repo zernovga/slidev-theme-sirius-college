@@ -1,0 +1,43 @@
+{
+  "name": "slidev-theme-sirius-college",
+  "version": "0.0.0",
+  "author": "Gleb Zernov <zernov.ga@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zernovga/slidev-theme-sirius-college"
+  },
+  "type": "module",
+  "keywords": [
+    "slidev-theme",
+    "slidev"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "build": "slidev build example.md",
+    "dev": "slidev example.md --open",
+    "export": "slidev export example.md",
+    "screenshot": "slidev export example.md --format png"
+  },
+  "dependencies": {
+    "@slidev/types": "^0.49.24",
+    "prism-theme-vars": "^0.2.5"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^0.49.24"
+  },
+  "//": "Learn more: https://sli.dev/guide/write-theme.html",
+  "slidev": {
+    "colorSchema": "light",
+    "highlighter": "all",
+    "defaults": {
+      "fonts": {
+        "sans": "Arial",
+        "mono": "Fira Code"
+      },
+      "transition": "slide-left",
+      "lineNumbers": true
+    }
+  }
+}
