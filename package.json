@@ -1,6 +1,6 @@
 {
   "name": "slidev-theme-sirius-college",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": "Gleb Zernov <zernov.ga@gmail.com>",
   "repository": {
     "type": "git",
@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@slidev/types": "^0.49.29",
-    "plotly.js": "^2.34.0",
+    "plotly.js": "^2.35.0",
     "prism-theme-vars": "^0.2.5",
     "uuid": "^10.0.0",
     "vue3-plotly": "^0.0.7"
