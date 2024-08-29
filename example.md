@@ -42,8 +42,8 @@ Hover on the bottom-left corner to see the navigation's controls panel
 | <kbd>down</kbd>                                      | next slide                  |
 
 ---
-
-## layout: image-left
+layout: image-left
+---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac pulvinar risus. Nulla sem erat, auctor ac augue id, hendrerit rutrum mauris. Cras accumsan rhoncus ante sit amet vehicula. Praesent feugiat lacus vel odio molestie, ultrices placerat urna sagittis. Maecenas rhoncus lorem et risus iaculis, nec congue risus dictum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec egestas nibh ac nulla laoreet interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -51,8 +51,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac pulvinar ri
 ![alt text](https://siriusuniversity.ru/local/templates/main/img/header_logo.svg)
 
 ---
-
-## layout: code
+layout: code
+---
 
 # Code
 
@@ -85,18 +85,16 @@ function updateUser(id: number, update: Partial<User>) {
 ````
 
 ---
-
-## layout: fact
+layout: fact
+---
 
 # The End
 
 some
 
 ---
-
 layout: center
 class: "text-center"
-
 ---
 
 # Learn More
