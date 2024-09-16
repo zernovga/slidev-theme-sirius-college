@@ -1,5 +1,6 @@
 ---
 theme: ./
+mdc: true
 ---
 
 # Сириус Колледж
@@ -8,7 +9,25 @@ theme: ./
 
 ---
 
-# What is Slidev?
+# Monaco
+
+```python {monaco-run}
+
+import math
+
+print("Hello world!")
+
+x = 5
+y = 2
+print(f"{x} + {y} = {x + y}")
+
+print("pi =", math.pi)
+
+```
+
+---
+
+# What is Slidev?What is Slidev?What is Slidev?What is Slidev?What is Slidev?What is Slidev?What is
 
 Slidev is a slide maker and presentation tool designed for developers. It includes the following features:
 
@@ -42,8 +61,10 @@ Hover on the bottom-left corner to see the navigation's controls panel
 | <kbd>down</kbd>                                      | next slide                  |
 
 ---
+layout: image-right
+---
 
-## layout: image-left
+# Images
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac pulvinar risus. Nulla sem erat, auctor ac augue id, hendrerit rutrum mauris. Cras accumsan rhoncus ante sit amet vehicula. Praesent feugiat lacus vel odio molestie, ultrices placerat urna sagittis. Maecenas rhoncus lorem et risus iaculis, nec congue risus dictum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec egestas nibh ac nulla laoreet interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -51,8 +72,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac pulvinar ri
 ![alt text](https://siriusuniversity.ru/local/templates/main/img/header_logo.svg)
 
 ---
-
-## layout: code
+layout: code
+---
 
 # Code
 
@@ -85,26 +106,18 @@ function updateUser(id: number, update: Partial<User>) {
 ````
 
 ---
-
-## layout: fact
+layout: fact
+---
 
 # The End
 
 some
 
 ---
-
 layout: center
 class: "text-center"
-
 ---
 
 # Learn More
 
 [Documentation](https://sli.dev) / [GitHub Repo](https://github.com/slidevjs/slidev)
-
----
-
-# Charts
-
-<v-plotly :data="[{ x: [1, 3], y: [2, 4] }]" :layout="{}" :options="{displaylogo: False}"/>

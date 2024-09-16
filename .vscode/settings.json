@@ -1,0 +1,7 @@
+{
+  "slidev.port": 3035,
+  "slidev.include": ["**/slides.md"],
+  "slidev.preview-sync": true,
+  "slidev.force-enabled": true,
+  "cSpell.words": ["godbolt"]
+}

@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "LabGrotesque";
+  src: url("LabGrotesque-Black.woff") format("woff");
+
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "LabGrotesque";
+  src: url("LabGrotesque-BlackItalic.woff") format("woff");
+
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "LabGrotesque";
+  src: url("LabGrotesque-Bold.woff") format("woff");
+
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "LabGrotesque";
+  src: url("LabGrotesque-BoldItalic.woff") format("woff");
+
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "LabGrotesque";
+  src: url("LabGrotesque-Italic.woff") format("woff");
+
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "LabGrotesque";
+  src: url("LabGrotesque-Light.woff") format("woff");
+
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "LabGrotesque";
+  src: url("LabGrotesque-LightItalic.woff") format("woff");
+
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "LabGrotesque";
+  src: url("LabGrotesque-Medium.woff") format("woff");
+
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "LabGrotesque";
+  src: url("LabGrotesque-MediumItalic.woff") format("woff");
+
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "LabGrotesque";
+  src: url("LabGrotesque-Regular.woff") format("woff");
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LabGrotesque";
+  src: url("LabGrotesque-Thin.woff") format("woff");
+
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "LabGrotesque";
+  src: url("LabGrotesque-ThinItalic.woff") format("woff");
+
+  font-weight: 100;
+  font-style: italic;
+}
