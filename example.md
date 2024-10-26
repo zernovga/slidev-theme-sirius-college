@@ -113,7 +113,7 @@ class: "text-center"
 
 # Monaco
 
-```python {monaco-run} {autorun:true, editorOptions: { lineNumbers:'on'} }
+```python {monaco-run} {height: '300px'}
 import math
 
 print("Hello world!")

@@ -3,6 +3,8 @@
 @import "prism-theme-vars/to-codemirror.css";
 
 :root {
+  --slidev-code-font-family: "JetBrains Mono", monospace;
+  --slidev-code-background: #fefefe;
   --prism-font-family: var(--slidev-code-font-family);
   --prism-background: var(--slidev-code-background);
   --prism-font-size: 1.2rem;
@@ -10,6 +12,8 @@
   --prism-selection-background: #e3e3e3;
   --slidev-code-padding: 0;
   --vscode-editorCodeLens-fontSize: 32px;
+  --slidev-code-font-size: 16pt;
+  --slidev-code-line-height: 1.5rem;
 }
 
 html:not(.dark) {

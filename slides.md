@@ -121,3 +121,9 @@ class: "text-center"
 # Learn More
 
 [Documentation](https://sli.dev) / [GitHub Repo](https://github.com/slidevjs/slidev)
+
+---
+
+```py {monaco}{height: 300}
+print("hello world!")
+```

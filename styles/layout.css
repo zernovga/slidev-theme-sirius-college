@@ -1,9 +1,9 @@
 @import "fonts/fonts.css";
+@import "animations.css";
 
-
-:root {
-  --slidev-code-font-size: 1.2rem;
-  --slidev-code-line-height: 1.8rem;
+root {
+  --slidev-code-font-size: 1.1rem;
+  --slidev-code-line-height: 1.5rem;
 }
 
 .slidev-layout {
@@ -17,12 +17,12 @@
   text-align: justify;
   font-family: "LabGrotesque", Helvetica, sans-serif;
 
-  font-size: 1.5rem;
-  line-height: 1.8rem;
+  font-size: 16pt;
+  line-height: 1.25rem;
 
-  p+h2,
-  ul+h2,
-  table+h2 {
+  p + h2,
+  ul + h2,
+  table + h2 {
     @apply mt-10;
   }
 
@@ -76,7 +76,8 @@
 
 .slidev-layout.default h1,
 .col-text h1,
-.slidev-layout.code h1 {
+.slidev-layout.code h1,
+.slidev-layout.two-columns h1 {
   @apply text-3xl mb-4 -ml-[0.05em];
 
   position: fixed;
@@ -105,7 +106,7 @@
     bottom: 40%;
   }
 
-  h1+p {
+  h1 + p {
     position: absolute;
     @apply text-2xl opacity-80;
     top: 60%;
@@ -122,7 +123,7 @@
     color: white;
   }
 
-  h1+p {
+  h1 + p {
     @apply font-700 text-2xl;
     color: white;
   }
@@ -152,7 +153,7 @@
 .slidev-layout.quote {
   @apply grid h-full;
 
-  h1+p {
+  h1 + p {
     @apply mt-2;
   }
 }
@@ -173,7 +174,8 @@
     width: 100%;
 
     line-height: 1.2;
-    font-weight: bold;
+    /* font-weight: bold; */
+    font-size: 36px;
   }
 }
 
@@ -190,10 +192,11 @@
 }
 
 .col-image img {
-  flex-shrink: 0;
+  /* flex-shrink: 0;
   width: 100%;
-  min-width: 100%;
+  min-width: 100%; */
   min-height: 100%;
+  object-fit: contain;
 }
 
 .col-image {
@@ -201,6 +204,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
 
 .slidev-layout.code {
@@ -224,7 +228,7 @@
   padding-left: 5%;
   padding-top: 12%;
   width: 100%;
-
+  /* 
   h1 {
     @apply text-3xl mb-4 -ml-[0.05em];
 
@@ -239,12 +243,18 @@
     line-height: 30pt;
     text-align: left;
     line-height: 1;
-  }
+  } */
 
-  .left,
+  .left{
+    float: left;
+    /* width: 48%; */
+    max-width: 60%;
+    margin-right: 2%;
+  }
+  
   .right {
     float: left;
-    width: 48%;
+    /* width: 48%; */
   }
 }
 
