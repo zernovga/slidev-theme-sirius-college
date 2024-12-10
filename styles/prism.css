@@ -4,7 +4,7 @@
 
 :root {
   --slidev-code-font-family: "JetBrains Mono", monospace;
-  --slidev-code-background: #fefefe;
+  --slidev-code-background: #fefefe00;
   --prism-font-family: var(--slidev-code-font-family);
   --prism-background: var(--slidev-code-background);
   --prism-font-size: 1.2rem;
