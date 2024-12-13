@@ -105,12 +105,6 @@ class: "text-center"
 
 ---
 
-# Charts
-
-<v-plotly :data="[{ x: [1, 3], y: [2, 4] }]" :layout="{}" :options="{displaylogo: False}"/>
-
----
-
 # Monaco
 
 ```python {monaco-run} {height: '300px'}

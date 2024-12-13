@@ -26,10 +26,8 @@
     "@slidev/theme-default": "^0.25.0",
     "@slidev/types": "^0.49.29",
     "embeddable-monaco": "^1.0.4",
-    "plotly.js": "^2.34.0",
     "prism-theme-vars": "^0.2.5",
-    "uuid": "^10.0.0",
-    "vue3-plotly": "^0.0.7"
+    "uuid": "^10.0.0"
   },
   "devDependencies": {
     "@slidev/cli": "^0.49.24",
