@@ -2,7 +2,7 @@
 
 [![NPM version](https://img.shields.io/npm/v/slidev-theme-sirius-college?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-sirius-college)
 
-A (...) theme for [Slidev](https://github.com/slidevjs/slidev).
+A Sirius College theme for [Slidev](https://github.com/slidevjs/slidev).
 
 <!--
   Learn more about how to write a theme:
@@ -32,12 +32,6 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 ## Layouts
 
 This theme provides the following layouts:
-
-> TODO:
-
-## Components
-
-This theme provides the following components:
 
 > TODO:
 

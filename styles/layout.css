@@ -228,33 +228,12 @@ root {
   padding-left: 5%;
   padding-top: 12%;
   width: 100%;
-  /* 
-  h1 {
-    @apply text-3xl mb-4 -ml-[0.05em];
+  display: flex;
 
-    position: fixed;
-    top: 12.5%;
-    width: 71%;
-    left: 24%;
-    transform: translateY(-50%);
-
-    color: #384996;
-    font-weight: bold;
-    line-height: 30pt;
-    text-align: left;
-    line-height: 1;
-  } */
-
-  .left{
-    float: left;
-    /* width: 48%; */
+  .right,
+  .left {
+    flex: 50%;
     max-width: 60%;
-    margin-right: 2%;
-  }
-  
-  .right {
-    float: left;
-    /* width: 48%; */
   }
 }
 
@@ -275,11 +254,30 @@ root {
   border-left: 0.25rem solid #384996;
 }
 
-.slidev-layout .slidev-runner-output {
-  font-size: 1.2rem;
-  line-height: 1.8rem;
+.slidev-monaco-container {
+  /* columns: 2; */
+  display: flex;
+  /* width: 100%; */
+  flex-direction: column;
+
+  .slidev-monaco-container-inner {
+    background-color: #e3e3e3;
+    flex: 50%;
+    height: 100%;
+  }
 }
 
+.slidev-monaco-container:nth-child(2) {
+  background-color: black;
+  flex: 50%;
+}
+
+.slidev-runner-output {
+  font-family: "JetBrains Mono";
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  color: white;
+}
 .slidev-layout .slidev-code-magic-move {
   font-size: 1.2rem;
 }
